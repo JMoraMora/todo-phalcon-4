@@ -3,7 +3,10 @@ declare(strict_types=1);
 
 namespace App\Models;
 
-class Tasks extends \Phalcon\Mvc\Model
+use Phalcon\Mvc\Model;
+use Phalcon\Mvc\Model\Query;
+
+class Tasks extends Model
 {
 
     /**
