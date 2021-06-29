@@ -13,6 +13,7 @@ $loader->registerDirs([
 $loader->registerNamespaces([
     'App\Controllers'   => $config->application->controllersDir,
     'App\Models'        => $config->application->modelsDir,
+    'App\Helpers'       => $config->application->helpersDir,
 ]);
 
 $loader->register();

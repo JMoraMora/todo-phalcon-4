@@ -3,13 +3,14 @@ declare(strict_types=1);
 
 namespace App\Controllers;
 
-class IndexController extends ControllerBase
+use Phalcon\Mvc\Controller;
+
+class IndexController extends Controller
 {
 
     public function indexAction()
     {
-        var_dump(Tasks::find());die;
-        echo (Tasks::find());die;
+        
     }
 
 }

@@ -5,9 +5,6 @@ dist/
 # modules composer
 vendor/
 
-# Cache Phalcon
-cache/
-
 # Compiled Java class files
 *.class
 
